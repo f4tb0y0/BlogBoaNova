@@ -25,7 +25,7 @@ export default async function Home({}) {
         </p>
       </div>
 
-      <ul className="divide-y divide-gray-200">
+        <ul className="divide-y divide-gray-200">
         {allPosts.map((post) => {
           return (
             <li key={post.id} className="py-12">
